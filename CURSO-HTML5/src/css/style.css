@@ -1,0 +1,82 @@
+body{
+    background-color: #f7f7f7;
+    font-family:  VERDANA;
+    max-width: 1080px;                      /*conteudo vai ter até 900px*/
+    margin: auto;                           /*adequa o alinhamento da tela no centro*/
+}
+.container{
+    display: flex;
+    padding-top: 15px;
+}
+.photo{
+
+    border: 5px solid #505050;
+    border-radius: 50%;
+}
+
+.apresentation{
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+#title, .subtitle, .posttitle{              /* Classe usa . e id usa # */
+
+    color: #505050;
+}
+
+#title{
+
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.topic_list{
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+a {
+    /*text-decoration: line-through;*/          /*Colocar linha ao centro*/
+    color: #505050;
+}
+
+.posttitle{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post{
+    font-size: 18px;
+    background-color: #FFFF;
+    padding: 15px;                          /* Espaçamento entre o conteudo e a borda */
+    border: 3px solid #505050;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.post_contains{
+
+    margin: 0;
+    margin-bottom: 15px;
+    /*text-transform: capitalize;*/         /* Primeira letra de cada palacra em maiusculo*/
+}
+
+.post_imag{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.contacts_list{
+    list-style-type: none;
+    padding-left: 15px;
+    
+}
+.contacts_list li a {
+    color: aqua;
+    font-weight: bold;
+    
+}
+
