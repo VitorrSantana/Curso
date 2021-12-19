@@ -1,0 +1,3 @@
+ctrl + p -> Buscar por arquivos 
+ctrl + shift + p -> Mostrar comandos do VSCode
+ctrl + k -> Comentário de código
