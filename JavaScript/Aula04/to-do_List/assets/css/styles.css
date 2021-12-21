@@ -1,0 +1,58 @@
+
+  
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgb(177, 225, 255); */
+}
+
+#input_tarefa{
+    height: 30px;
+    border: 2px solid black;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#adicionar{
+    border: 2px solid rgb(154, 236, 218);
+    border-radius: 10px;
+    background-color: rgb(74, 229, 235);
+    height: 40px;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+}
+
+#button3{
+    margin-top: 15px;
+    height: 40px;
+    width: 120px;
+    border: 2px solid rgb(34, 30, 30);
+    border-radius: 10px;
+    color:green;
+    background-color: #d6d6e7;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
